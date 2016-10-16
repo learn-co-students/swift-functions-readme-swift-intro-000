@@ -15,6 +15,8 @@ func sayHelloToGarfield() {
     print("Hello, Garfield, why do you sleep so much?")
 }
 
+
+
 func sayHelloToBuster() {
     print("Hello, Buster, why do you sleep so much?")
 }
@@ -42,3 +44,7 @@ sayHello(name: "Socks")
 let dumpsterCat = "Rocky"
 sayHello(name: dumpsterCat)
 // Prints "Hello Rocky, why do you sleep so much?"
+
+sayHelloToCat(catName: "BOB")
+let boss = "Darth"
+sayHello(name: "Darth")
