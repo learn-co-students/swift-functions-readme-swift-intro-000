@@ -36,7 +36,7 @@ func sayHello(name: String) {
 sayHello(name: "Mittens")
 // Prints "Hello Mittens, why do you sleep so much?"
 
-sayHello(name: "Socks")
+sayHello(name: "Fluffy")
 // Prints "Hello Socks, why do you sleep so much?"
 
 let dumpsterCat = "Rocky"
