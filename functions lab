@@ -1,0 +1,37 @@
+
+func rowTheBoat() {
+    print("Row, row, row your boat")
+    print("Gently down the stream")
+}
+
+func merrilyDream() {
+    print("Merrily, merrily, merrily, merrily")
+    print("Life is but a dream")
+}
+func breatheBetweenVerses() {
+    print("        ~        ")
+}
+
+func verseOne() {
+    rowTheBoat()
+    merrilyDream()
+}
+
+verseOne()
+breatheBetweenVerses()
+
+
+func laughingSubmarine() {
+    print("Ha! Ha! Fooled you all")
+    print("I’m a submarine")
+}
+func breatheBetweenSecondVerse() {
+    print("        ~        ")
+}
+
+func verseTwo() {
+    laughingSubmarine()
+}
+
+verseTwo()
+breatheBetweenSecondVerse()
