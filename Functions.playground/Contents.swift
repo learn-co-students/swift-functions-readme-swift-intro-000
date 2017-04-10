@@ -8,7 +8,7 @@ sayHello()
 
 // Uncomment this line to see the error that is printed in the console.
 // (You can uncomment a line by removing the // at the beginning of the line.)
-//print(greeting)
+// print(greeting) - this won't work because it's outside of scope, greeting hasn't been declared outside of the function. - DominationD
 
 
 func sayHelloToGarfield() {
@@ -42,3 +42,8 @@ sayHello(name: "Socks")
 let dumpsterCat = "Rocky"
 sayHello(name: dumpsterCat)
 // Prints "Hello Rocky, why do you sleep so much?"
+
+var ninjaTurtles = "Donetello"
+sayHello(name: ninjaTurtles)
+
+sayHello(name: "Leonardo")
