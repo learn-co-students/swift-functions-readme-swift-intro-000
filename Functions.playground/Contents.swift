@@ -12,7 +12,7 @@ sayHello()
 
 
 func sayHelloToGarfield() {
-    print("Hello, Garfield, why do you sleep so much?")
+    print("Yikes, Garfield, why do you sleep so much?")
 }
 
 func sayHelloToBuster() {
@@ -25,7 +25,7 @@ func sayHelloToScratchy() {
 
 
 func sayHelloToCat(catName: String) {
-    print("Hello, \(catName), why do you sleep so much?")
+    print("Yikes, \(catName), why do you sleep so much?")
 }
 
 
@@ -33,11 +33,12 @@ func sayHello(name: String) {
     print("Hello \(name), why do you sleep so much?")
 }
 
+
 sayHello(name: "Mittens")
 // Prints "Hello Mittens, why do you sleep so much?"
 
-sayHello(name: "Socks")
-// Prints "Hello Socks, why do you sleep so much?"
+sayHello(name: "Tester")
+// Prints "Hello Tester, why do you sleep so much?"
 
 let dumpsterCat = "Rocky"
 sayHello(name: dumpsterCat)
