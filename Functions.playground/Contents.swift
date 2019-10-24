@@ -42,3 +42,10 @@ sayHello(name: "Socks")
 let dumpsterCat = "Rocky"
 sayHello(name: dumpsterCat)
 // Prints "Hello Rocky, why do you sleep so much?"
+
+func showMind(from:String, to:String)-> String{
+    let confess = "I love you \(from), how about you \(to)"
+    return confess
+}
+
+print(showMind(from: "Nakyung", to: "hyunwoo"))
