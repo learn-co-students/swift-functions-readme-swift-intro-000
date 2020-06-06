@@ -39,6 +39,6 @@ sayHello(name: "Mittens")
 sayHello(name: "Socks")
 // Prints "Hello Socks, why do you sleep so much?"
 
-let dumpsterCat = "Rocky"
-sayHello(name: dumpsterCat)
+let upperclassDog = "Luna"
+sayHello(name: upperclassDog)
 // Prints "Hello Rocky, why do you sleep so much?"
