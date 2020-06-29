@@ -1,44 +1,21 @@
-func sayHello() {
-    let greeting = "Hello there!"
-    print(greeting)
+
+func weather(celsius: Int) {
+    let greeting = "celsius degree"
+    print("Today weather in New York City is \(celsius) \(greeting).")
 }
 
-sayHello()
-sayHello()
-
-// Uncomment this line to see the error that is printed in the console.
-// (You can uncomment a line by removing the // at the beginning of the line.)
-//print(greeting)
-
-
-func sayHelloToGarfield() {
-    print("Hello, Garfield, why do you sleep so much?")
-}
-
-func sayHelloToBuster() {
-    print("Hello, Buster, why do you sleep so much?")
-}
-
-func sayHelloToScratchy() {
-    print("Hello, Scratchy, why do you sleep so much?")
-}
-
-
-func sayHelloToCat(catName: String) {
-    print("Hello, \(catName), why do you sleep so much?")
-}
+weather(celsius: 12)
+weather(celsius: 14)
 
 
 func sayHello(name: String) {
-    print("Hello \(name), why do you sleep so much?")
+    print ("Hello \(name), why do you sleep so much?")
 }
 
-sayHello(name: "Mittens")
-// Prints "Hello Mittens, why do you sleep so much?"
+sayHello(name: "Murka")
+sayHello(name: "Nika")
+sayHello(name: "Sharik")
 
-sayHello(name: "Socks")
-// Prints "Hello Socks, why do you sleep so much?"
-
-let dumpsterCat = "Rocky"
+let dumpsterCat = "Sieh"
 sayHello(name: dumpsterCat)
-// Prints "Hello Rocky, why do you sleep so much?"
+
